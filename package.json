@@ -1,0 +1,53 @@
+{
+    "name": "wavemusic",
+    "version": "3.0.0",
+    "description": "WaveMusic is a discord music bot base in (Shoukaku)",
+    "main": "src/index.js",
+    "author": "Blacky",
+    "license": "ISC",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/appujet/wavemusic.git"
+    },
+    "keywords": [
+        "discord",
+        "music",
+        "bot",
+        "lavalink",
+        "shoukaku",
+        "WaveMusic",
+        "wavemusic",
+        "musicbot",
+        "javascript"
+    ],
+    "bugs": {
+        "url": "https://github.com/appujet/wavemusic/issues"
+    },
+    "homepage": "https://github.com/appujet/wavemusic#readme",
+    "devDependencies": {
+        "@types/better-sqlite3": "^7.6.9",
+        "@types/signale": "^1.4.7"
+    },
+    "dependencies": {
+        "better-sqlite3": "^9.4.3",
+        "discord.js": "^14.14.1",
+        "dotenv": "^16.4.5",
+        "shoukaku": "^4.0.1",
+        "signale": "^1.4.0",
+        "tslib": "^2.6.2",
+        "undici": "^6.7.1"
+    },
+    "signale": {
+        "displayScope": true,
+        "displayBadge": true,
+        "displayDate": true,
+        "displayFilename": true,
+        "displayLabel": true,
+        "displayTimestamp": true,
+        "underlineLabel": true
+    }
+}

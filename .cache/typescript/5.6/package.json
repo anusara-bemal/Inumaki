@@ -1,0 +1,1 @@
+{"private":true,"dependencies":{"types-registry":"^0.1.702"},"devDependencies":{"@types/better-sqlite3":"^7.6.12","@types/domready":"^1.0.2","@types/signale":"^1.4.7","@types/ws":"^8.5.13"}}
